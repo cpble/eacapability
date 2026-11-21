@@ -1,0 +1,51 @@
+{
+  "name": "eacapability",
+  "version": "0.1.0",
+  "description": "Web components for capability maps and heat maps, drawn from JSON. No dependencies, accessible.",
+  "keywords": [
+    "capability map",
+    "business capability",
+    "enterprise architecture",
+    "heat map",
+    "web components",
+    "custom elements"
+  ],
+  "license": "MIT",
+  "author": "cpble (https://cpble.com)",
+  "homepage": "https://github.com/cpble/eacapability#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpble/eacapability.git"
+  },
+  "bugs": "https://github.com/cpble/eacapability/issues",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./model": {
+      "types": "./dist/model.d.ts",
+      "default": "./dist/model.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "./dist/index.js"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "demo": "npm run build && node demo/serve.mjs",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2"
+  }
+}

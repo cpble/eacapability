@@ -1,0 +1,1849 @@
+{
+  "title": "Higher education capability model",
+  "legend": [
+    {
+      "value": "high",
+      "label": "At risk",
+      "color": "#d63939"
+    },
+    {
+      "value": "watch",
+      "label": "Some risk",
+      "color": "#f76707"
+    },
+    {
+      "value": "ok",
+      "label": "Healthy",
+      "color": "#2fb344"
+    }
+  ],
+  "capabilities": [
+    {
+      "name": "Student Lifecycle",
+      "description": "Bringing students in, supporting them through their studies and staying connected after",
+      "children": [
+        {
+          "name": "Recruitment and Outreach",
+          "description": "Finding and engaging prospective students",
+          "children": [
+            {
+              "name": "Prospect Management",
+              "description": "Capturing and tracking prospective students and their interests",
+              "heat": "ok",
+              "count": 5
+            },
+            {
+              "name": "Recruitment Campaigns",
+              "description": "Email, digital and print campaigns to prospective students",
+              "heat": "watch",
+              "count": 1
+            },
+            {
+              "name": "Campus Visits and Events",
+              "description": "Tours, open days and admitted-student events",
+              "heat": "watch",
+              "count": 6
+            },
+            {
+              "name": "High School and Counselor Relations",
+              "description": "Working with schools and counselors who advise applicants",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Admissions",
+          "description": "Receiving, reviewing and deciding on applications",
+          "children": [
+            {
+              "name": "Application Processing",
+              "description": "Receiving applications, fees and supporting documents",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Credential Evaluation",
+              "description": "Checking transcripts, test scores and transfer credit",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Admission Decisions",
+              "description": "Reviewing applications and making and communicating decisions",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Deposits and Confirmation",
+              "description": "Confirming the intent of admitted students to enroll",
+              "heat": "high",
+              "count": 4
+            },
+            {
+              "name": "International Admissions",
+              "description": "Admitting international students, including visa documentation",
+              "heat": "ok",
+              "count": 0
+            }
+          ]
+        },
+        {
+          "name": "Financial Aid",
+          "description": "Awarding, disbursing and reporting aid and scholarships",
+          "children": [
+            {
+              "name": "Aid Eligibility and Verification",
+              "description": "Determining need and verifying the information it's based on",
+              "heat": "ok",
+              "count": 5
+            },
+            {
+              "name": "Aid Packaging",
+              "description": "Combining grants, loans, work-study and scholarships into offers",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Scholarship Management",
+              "description": "Awarding institutional and donor-funded scholarships",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Aid Disbursement",
+              "description": "Paying aid to student accounts",
+              "heat": "watch",
+              "count": 2
+            },
+            {
+              "name": "Aid Compliance and Reporting",
+              "description": "Meeting federal and state aid rules and reporting",
+              "heat": "watch",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "name": "Enrollment and Registration",
+          "description": "Enrolling students in programs and courses",
+          "children": [
+            {
+              "name": "Program Enrollment",
+              "description": "Admitting students to programs, majors and minors",
+              "count": 3
+            },
+            {
+              "name": "Course Registration",
+              "description": "Registering students in courses, including waitlists and holds",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Transfer Credit",
+              "description": "Evaluating and applying credit from other institutions",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Enrollment Verification",
+              "description": "Confirming enrollment to lenders and other parties",
+              "heat": "ok",
+              "count": 0
+            }
+          ]
+        },
+        {
+          "name": "Student Records",
+          "description": "Keeping academic records, transcripts and enrollment status",
+          "children": [
+            {
+              "name": "Academic Record Keeping",
+              "description": "Maintaining each student's official academic record",
+              "heat": "high",
+              "count": 5
+            },
+            {
+              "name": "Transcripts",
+              "description": "Producing official transcripts",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Records Privacy",
+              "description": "Protecting student records and managing release, as FERPA requires",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Residency Classification",
+              "description": "Determining in-state or out-of-state status for tuition",
+              "heat": "ok",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Academic Advising",
+          "description": "Helping students plan and progress through their programs",
+          "children": [
+            {
+              "name": "Degree Planning",
+              "description": "Planning the courses a student needs to graduate",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Degree Audit",
+              "description": "Checking progress against program requirements",
+              "heat": "watch",
+              "count": 3
+            },
+            {
+              "name": "Advising Appointments",
+              "description": "Scheduling and recording advising sessions",
+              "heat": "watch",
+              "count": 8
+            },
+            {
+              "name": "Academic Standing",
+              "description": "Tracking probation, suspension and academic alerts",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "Student Success and Retention",
+          "description": "Spotting students who need support and helping them continue",
+          "children": [
+            {
+              "name": "Early Alerts",
+              "description": "Flagging students at risk from grades and engagement",
+              "heat": "ok",
+              "count": 0
+            },
+            {
+              "name": "Tutoring and Academic Support",
+              "description": "Tutoring, writing centers and supplemental instruction",
+              "heat": "ok",
+              "count": 5
+            },
+            {
+              "name": "First-Year Experience",
+              "description": "Orientation, transition programs and first-year seminars",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Retention Analytics",
+              "description": "Measuring and predicting persistence and completion",
+              "heat": "high",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "name": "Career Services",
+          "description": "Preparing students for work, internships and placements",
+          "children": [
+            {
+              "name": "Career Advising",
+              "description": "Helping students choose and plan careers",
+              "heat": "ok",
+              "count": 2
+            },
+            {
+              "name": "Internships and Experiential Learning",
+              "description": "Finding, approving and tracking placements",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Employer Relations",
+              "description": "Working with employers who recruit students",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Graduate Outcomes",
+              "description": "Tracking where graduates go",
+              "heat": "ok",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "name": "Graduation and Credentials",
+          "description": "Checking degree requirements and conferring degrees and certificates",
+          "children": [
+            {
+              "name": "Graduation Clearance",
+              "description": "Confirming that requirements are complete",
+              "heat": "watch",
+              "count": 4
+            },
+            {
+              "name": "Commencement",
+              "description": "Planning and running graduation ceremonies",
+              "heat": "watch",
+              "count": 0
+            },
+            {
+              "name": "Diplomas and Digital Credentials",
+              "description": "Issuing diplomas, certificates and digital badges",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "name": "Alumni Relations",
+          "description": "Keeping graduates connected to the institution",
+          "children": [
+            {
+              "name": "Alumni Records",
+              "description": "Keeping graduates' contact details and history",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Alumni Engagement",
+              "description": "Events, chapters and volunteering",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Alumni Communications",
+              "description": "Newsletters and news for graduates",
+              "heat": "ok",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Teaching and Learning",
+      "description": "Designing and delivering education",
+      "children": [
+        {
+          "name": "Curriculum and Program Management",
+          "description": "Designing, approving and reviewing programs and courses",
+          "children": [
+            {
+              "name": "Program Design",
+              "description": "Creating new programs and changing existing ones",
+              "heat": "high",
+              "count": 7
+            },
+            {
+              "name": "Curriculum Approval",
+              "description": "Committee review and approval of courses and programs",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Course Catalog",
+              "description": "Publishing courses and program requirements",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Learning Outcomes",
+              "description": "Defining what students should learn and measuring it",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Program Review",
+              "description": "Periodic review of program quality",
+              "heat": "ok",
+              "count": 0
+            }
+          ]
+        },
+        {
+          "name": "Course Scheduling",
+          "description": "Timetabling courses, rooms and instructors",
+          "children": [
+            {
+              "name": "Schedule Building",
+              "description": "Planning which sections are offered and when",
+              "heat": "watch",
+              "count": 5
+            },
+            {
+              "name": "Room Assignment",
+              "description": "Matching sections to suitable rooms",
+              "heat": "watch",
+              "count": 1
+            },
+            {
+              "name": "Instructor Assignment",
+              "description": "Assigning faculty to sections",
+              "count": 6
+            },
+            {
+              "name": "Final Exam Scheduling",
+              "description": "Timetabling final examinations",
+              "heat": "ok",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Course Delivery",
+          "description": "Running courses in person and online",
+          "children": [
+            {
+              "name": "Learning Management",
+              "description": "The learning management system: course sites, materials and submissions",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Classroom Technology",
+              "description": "Lecture capture, displays and in-room equipment",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Online and Hybrid Delivery",
+              "description": "Courses taught partly or fully online",
+              "heat": "high",
+              "count": 8
+            },
+            {
+              "name": "Course Materials",
+              "description": "Textbooks, readings and open educational resources",
+              "heat": "ok",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "Assessment and Grading",
+          "description": "Setting and marking work, and recording grades",
+          "children": [
+            {
+              "name": "Assignments and Exams",
+              "description": "Setting, collecting and marking student work",
+              "heat": "ok",
+              "count": 0
+            },
+            {
+              "name": "Proctoring",
+              "description": "Supervising exams in person and online",
+              "heat": "ok",
+              "count": 5
+            },
+            {
+              "name": "Grade Submission",
+              "description": "Recording final grades",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Grade Appeals",
+              "description": "Reviewing disputed grades",
+              "heat": "watch",
+              "count": 6
+            },
+            {
+              "name": "Course Evaluations",
+              "description": "Students' feedback on courses and teaching",
+              "heat": "watch",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Academic Integrity",
+          "description": "Upholding honesty in study and assessment",
+          "children": [
+            {
+              "name": "Integrity Cases",
+              "description": "Investigating and resolving academic misconduct",
+              "count": 7
+            },
+            {
+              "name": "Plagiarism Detection",
+              "description": "Checking work for copying and misuse of sources",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Integrity Education",
+              "description": "Teaching students what academic integrity requires",
+              "heat": "ok",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "name": "Accessibility and Accommodations",
+          "description": "Making learning accessible and arranging accommodations",
+          "children": [
+            {
+              "name": "Accommodation Requests",
+              "description": "Receiving and approving student accommodations",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Accessible Materials",
+              "description": "Captions and accessible course materials",
+              "heat": "high",
+              "count": 0
+            },
+            {
+              "name": "Testing Accommodations",
+              "description": "Extended time and alternative testing arrangements",
+              "heat": "ok",
+              "count": 5
+            },
+            {
+              "name": "Digital Accessibility",
+              "description": "Making websites and software meet accessibility standards",
+              "heat": "ok",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Library Services",
+          "description": "Providing collections, research help and study space",
+          "children": [
+            {
+              "name": "Collections and Acquisitions",
+              "description": "Buying, licensing and cataloging materials",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Discovery and Access",
+              "description": "Helping people find and reach library resources",
+              "heat": "ok",
+              "count": 2
+            },
+            {
+              "name": "Research and Instruction Support",
+              "description": "Librarians helping with research and teaching",
+              "heat": "watch",
+              "count": 7
+            },
+            {
+              "name": "Special Collections and Archives",
+              "description": "Rare materials, archives and institutional records",
+              "heat": "watch",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "name": "Continuing and Online Education",
+          "description": "Courses and programs for learners outside traditional degrees",
+          "children": [
+            {
+              "name": "Non-Credit Programs",
+              "description": "Workshops, certificates and professional education",
+              "count": 8
+            },
+            {
+              "name": "Online Program Management",
+              "description": "Running fully online degree programs",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Corporate and Community Partnerships",
+              "description": "Training delivered for employers and communities",
+              "heat": "ok",
+              "count": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research",
+      "description": "Finding, funding, carrying out and sharing research",
+      "children": [
+        {
+          "name": "Research Development",
+          "description": "Finding funding opportunities and preparing proposals",
+          "children": [
+            {
+              "name": "Funding Opportunities",
+              "description": "Finding and sharing grants researchers could apply for",
+              "heat": "ok",
+              "count": 5
+            },
+            {
+              "name": "Proposal Preparation",
+              "description": "Writing, budgeting and assembling proposals",
+              "heat": "high",
+              "count": 1
+            },
+            {
+              "name": "Proposal Submission",
+              "description": "Institutional review and submission to sponsors",
+              "heat": "ok",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "name": "Grants and Sponsored Programs",
+          "description": "Managing awards, budgets and sponsor reporting",
+          "children": [
+            {
+              "name": "Award Setup",
+              "description": "Accepting awards and setting up accounts and budgets",
+              "heat": "ok",
+              "count": 2
+            },
+            {
+              "name": "Post-Award Management",
+              "description": "Spending, cost transfers and budget changes on awards",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Effort Reporting",
+              "description": "Certifying the time researchers spend on sponsored projects",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Sponsor Reporting and Closeout",
+              "description": "Financial and progress reports and closing awards",
+              "heat": "watch",
+              "count": 8
+            },
+            {
+              "name": "Subawards",
+              "description": "Managing funds passed to partner institutions",
+              "heat": "watch",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "Research Compliance",
+          "description": "Ethics review, human and animal subjects, and export control",
+          "children": [
+            {
+              "name": "Human Subjects Review",
+              "description": "Ethics review of research with people, by the institutional review board",
+              "count": 0
+            },
+            {
+              "name": "Animal Care and Use",
+              "description": "Oversight of research with animals",
+              "heat": "ok",
+              "count": 5
+            },
+            {
+              "name": "Conflict of Interest",
+              "description": "Disclosing and managing researchers' outside interests",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Export Control",
+              "description": "Controlling sensitive technology and information",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Research Security",
+              "description": "Protecting research from theft and foreign interference",
+              "heat": "high",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Research Data Management",
+          "description": "Storing, protecting and sharing research data",
+          "children": [
+            {
+              "name": "Data Management Plans",
+              "description": "Planning how project data will be handled",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Research Data Storage",
+              "description": "Storage and backup for research data",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Data Sharing and Publishing",
+              "description": "Repositories, open data and data access agreements",
+              "heat": "ok",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "name": "Research Computing",
+          "description": "High-performance computing and research software support",
+          "children": [
+            {
+              "name": "High-Performance Computing",
+              "description": "Clusters and computing allocations",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Research Software Support",
+              "description": "Help building and running research software",
+              "heat": "watch",
+              "count": 0
+            },
+            {
+              "name": "Research Cloud Services",
+              "description": "Cloud resources for research projects",
+              "heat": "watch",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "name": "Technology Transfer",
+          "description": "Patents, licensing and commercializing discoveries",
+          "children": [
+            {
+              "name": "Invention Disclosure",
+              "description": "Recording and assessing new discoveries",
+              "count": 1
+            },
+            {
+              "name": "Patents and Intellectual Property",
+              "description": "Protecting the institution's intellectual property",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Licensing and Startups",
+              "description": "Licensing technology and supporting spin-out companies",
+              "heat": "ok",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Research Outputs",
+          "description": "Recording and sharing what research produces",
+          "children": [
+            {
+              "name": "Publications and Repositories",
+              "description": "Recording publications and making them openly available",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Researcher Profiles",
+              "description": "Public profiles of researchers and their work",
+              "heat": "high",
+              "count": 3
+            },
+            {
+              "name": "Research Impact",
+              "description": "Measuring and reporting the effect of research",
+              "heat": "ok",
+              "count": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Student Life",
+      "description": "Life outside the classroom",
+      "children": [
+        {
+          "name": "Housing and Residence Life",
+          "description": "Assigning and running student housing",
+          "children": [
+            {
+              "name": "Housing Assignment",
+              "description": "Applications, room selection and contracts",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Residence Life Programs",
+              "description": "Community and wellbeing programs in residence halls",
+              "heat": "ok",
+              "count": 0
+            },
+            {
+              "name": "Housing Operations",
+              "description": "Check-in, maintenance requests and key management",
+              "heat": "ok",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "name": "Dining Services",
+          "description": "Meal plans and campus dining",
+          "children": [
+            {
+              "name": "Meal Plans",
+              "description": "Selling and managing meal plans",
+              "heat": "watch",
+              "count": 1
+            },
+            {
+              "name": "Dining Operations",
+              "description": "Running dining halls and retail outlets",
+              "heat": "watch",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "name": "Health and Counseling",
+          "description": "Student health care and mental health support",
+          "children": [
+            {
+              "name": "Student Health Services",
+              "description": "Medical care for students",
+              "count": 2
+            },
+            {
+              "name": "Counseling and Mental Health",
+              "description": "Counseling, crisis support and wellness programs",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Student Health Insurance",
+              "description": "Insurance plans for students",
+              "heat": "ok",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "name": "Student Conduct",
+          "description": "Standards of conduct and how they are upheld",
+          "children": [
+            {
+              "name": "Conduct Cases",
+              "description": "Investigating and resolving conduct reports",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Title IX and Equity",
+              "description": "Responding to harassment and discrimination reports",
+              "heat": "high",
+              "count": 4
+            },
+            {
+              "name": "Behavioral Intervention",
+              "description": "Coordinated support for students of concern",
+              "heat": "ok",
+              "count": 0
+            }
+          ]
+        },
+        {
+          "name": "Campus Activities",
+          "description": "Clubs, organizations and events",
+          "children": [
+            {
+              "name": "Student Organizations",
+              "description": "Registering and supporting clubs and organizations",
+              "heat": "ok",
+              "count": 5
+            },
+            {
+              "name": "Student Events",
+              "description": "Planning and approving student events",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Student Government",
+              "description": "Supporting student government",
+              "heat": "ok",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "name": "Athletics",
+          "description": "Intercollegiate and recreational sports",
+          "children": [
+            {
+              "name": "Intercollegiate Athletics",
+              "description": "Teams, schedules and athletic compliance",
+              "heat": "watch",
+              "count": 2
+            },
+            {
+              "name": "Recreation and Fitness",
+              "description": "Recreational sports and fitness facilities",
+              "heat": "watch",
+              "count": 7
+            },
+            {
+              "name": "Ticketing and Venues",
+              "description": "Selling tickets and running athletic venues",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Advancement",
+      "description": "Building support for the institution",
+      "children": [
+        {
+          "name": "Fundraising and Gifts",
+          "description": "Soliciting, receiving and acknowledging gifts",
+          "children": [
+            {
+              "name": "Prospect Research",
+              "description": "Identifying and researching potential donors",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Major Gifts",
+              "description": "Cultivating and securing large gifts",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Annual Giving",
+              "description": "Regular giving campaigns",
+              "heat": "ok",
+              "count": 0
+            },
+            {
+              "name": "Gift Processing",
+              "description": "Recording gifts and issuing receipts",
+              "heat": "high",
+              "count": 5
+            },
+            {
+              "name": "Campaigns",
+              "description": "Multi-year fundraising campaigns",
+              "heat": "ok",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Donor Relations",
+          "description": "Stewarding relationships with donors",
+          "children": [
+            {
+              "name": "Donor Stewardship",
+              "description": "Reporting to donors on how their gifts are used",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Donor Recognition",
+              "description": "Recognizing donors through societies, naming and events",
+              "heat": "ok",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Communications and Marketing",
+          "description": "The institution's brand, website and news",
+          "children": [
+            {
+              "name": "Brand Management",
+              "description": "Keeping the institution's identity consistent",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Web Content Management",
+              "description": "The institution's websites and their content",
+              "heat": "watch",
+              "count": 3
+            },
+            {
+              "name": "News and Media Relations",
+              "description": "News, press releases and working with journalists",
+              "heat": "watch",
+              "count": 8
+            },
+            {
+              "name": "Social Media",
+              "description": "The institution's social media presence",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "Events",
+          "description": "Planning and running institutional events",
+          "children": [
+            {
+              "name": "Event Planning",
+              "description": "Planning, budgeting and running events",
+              "heat": "ok",
+              "count": 0
+            },
+            {
+              "name": "Event Registration",
+              "description": "Registering and checking in attendees",
+              "heat": "ok",
+              "count": 5
+            },
+            {
+              "name": "Venue Booking",
+              "description": "Reserving campus spaces for events",
+              "heat": "ok",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Institutional Management",
+      "description": "Leading, planning and governing the institution",
+      "children": [
+        {
+          "name": "Strategic Planning",
+          "description": "Setting direction and measuring progress",
+          "children": [
+            {
+              "name": "Strategic Plan Development",
+              "description": "Writing and updating the strategic plan",
+              "heat": "high",
+              "count": 6
+            },
+            {
+              "name": "Performance Measurement",
+              "description": "Goals, measures and progress against them",
+              "heat": "ok",
+              "count": 2
+            },
+            {
+              "name": "Enrollment Planning",
+              "description": "Setting enrollment targets and mix",
+              "heat": "ok",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "name": "Institutional Research and Reporting",
+          "description": "Analysis and mandatory reporting about the institution",
+          "children": [
+            {
+              "name": "Federal and State Reporting",
+              "description": "Mandatory reporting to government, such as IPEDS in the United States",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Institutional Analytics",
+              "description": "Analysis of enrollment, retention, outcomes and costs",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Surveys",
+              "description": "Surveys of students and staff",
+              "heat": "watch",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "Governance and Policy",
+          "description": "Boards, committees and institutional policy",
+          "children": [
+            {
+              "name": "Board Support",
+              "description": "Supporting the governing board and its meetings",
+              "heat": "watch",
+              "count": 0
+            },
+            {
+              "name": "Committee Management",
+              "description": "Running institutional committees and their records",
+              "count": 5
+            },
+            {
+              "name": "Policy Management",
+              "description": "Writing, approving and publishing policies",
+              "heat": "ok",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Accreditation",
+          "description": "Meeting and demonstrating accreditation standards",
+          "children": [
+            {
+              "name": "Institutional Accreditation",
+              "description": "Preparing for and maintaining institutional accreditation",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Program Accreditation",
+              "description": "Professional accreditation of individual programs",
+              "heat": "ok",
+              "count": 2
+            },
+            {
+              "name": "Accreditation Evidence",
+              "description": "Collecting evidence of meeting standards",
+              "heat": "high",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "name": "Risk and Compliance",
+          "description": "Identifying risks and meeting regulations, such as FERPA and Title IX",
+          "children": [
+            {
+              "name": "Enterprise Risk Management",
+              "description": "Identifying and managing the institution's risks",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Regulatory Compliance",
+              "description": "Tracking and meeting laws and regulations",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Internal Audit",
+              "description": "Independent review of controls and operations",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Privacy Management",
+              "description": "How personal data is collected and used",
+              "heat": "ok",
+              "count": 0
+            }
+          ]
+        },
+        {
+          "name": "Legal Services",
+          "description": "Legal advice and contracts",
+          "children": [
+            {
+              "name": "Legal Advice",
+              "description": "Advising on legal questions",
+              "heat": "watch",
+              "count": 5
+            },
+            {
+              "name": "Contract Management",
+              "description": "Drafting, reviewing and storing contracts",
+              "heat": "watch",
+              "count": 1
+            },
+            {
+              "name": "Litigation",
+              "description": "Managing legal claims and disputes",
+              "count": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "description": "Managing the institution's money",
+      "children": [
+        {
+          "name": "Budgeting",
+          "description": "Planning and monitoring budgets",
+          "children": [
+            {
+              "name": "Budget Development",
+              "description": "Building the annual operating and capital budgets",
+              "heat": "ok",
+              "count": 2
+            },
+            {
+              "name": "Budget Monitoring",
+              "description": "Tracking spending against budgets",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Financial Forecasting",
+              "description": "Projecting revenue and expenses",
+              "heat": "ok",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "name": "Accounting",
+          "description": "General ledger, close and financial statements",
+          "children": [
+            {
+              "name": "General Ledger",
+              "description": "Recording financial transactions",
+              "heat": "high",
+              "count": 8
+            },
+            {
+              "name": "Financial Close",
+              "description": "Closing the books each month and year",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Financial Statements",
+              "description": "Producing audited financial statements",
+              "heat": "ok",
+              "count": 0
+            },
+            {
+              "name": "Fixed Assets",
+              "description": "Tracking and depreciating equipment and buildings",
+              "heat": "ok",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "name": "Procurement",
+          "description": "Buying goods and services",
+          "children": [
+            {
+              "name": "Requisitions and Purchase Orders",
+              "description": "Requesting and approving purchases",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Supplier Management",
+              "description": "Selecting and managing suppliers",
+              "heat": "watch",
+              "count": 6
+            },
+            {
+              "name": "Purchasing Cards",
+              "description": "Issuing and reconciling purchasing cards",
+              "heat": "watch",
+              "count": 2
+            },
+            {
+              "name": "Strategic Sourcing",
+              "description": "Negotiating contracts for common purchases",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "name": "Accounts Payable",
+          "description": "Paying suppliers",
+          "children": [
+            {
+              "name": "Invoice Processing",
+              "description": "Receiving and approving supplier invoices",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Supplier Payments",
+              "description": "Paying suppliers on time",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Expense Reimbursement",
+              "description": "Repaying staff for business expenses and travel",
+              "heat": "ok",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "Student Accounts and Billing",
+          "description": "Tuition, fees, billing and payment plans",
+          "children": [
+            {
+              "name": "Tuition and Fee Assessment",
+              "description": "Calculating what each student owes",
+              "heat": "high",
+              "count": 0
+            },
+            {
+              "name": "Student Billing",
+              "description": "Sending bills and statements to students",
+              "heat": "ok",
+              "count": 5
+            },
+            {
+              "name": "Payment Plans",
+              "description": "Spreading payments over a term",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Collections",
+              "description": "Collecting overdue student balances",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Refunds",
+              "description": "Returning credit balances to students",
+              "heat": "ok",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Payroll",
+          "description": "Paying faculty and staff",
+          "children": [
+            {
+              "name": "Payroll Processing",
+              "description": "Calculating and paying wages",
+              "heat": "watch",
+              "count": 7
+            },
+            {
+              "name": "Payroll Tax and Reporting",
+              "description": "Withholding and reporting payroll taxes",
+              "heat": "watch",
+              "count": 3
+            },
+            {
+              "name": "Student Employment Payroll",
+              "description": "Paying student workers",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "name": "Treasury and Investments",
+          "description": "Cash, debt and endowment management",
+          "children": [
+            {
+              "name": "Cash Management",
+              "description": "Managing bank accounts and cash flow",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Endowment Management",
+              "description": "Investing and spending the endowment",
+              "heat": "ok",
+              "count": 0
+            },
+            {
+              "name": "Debt Management",
+              "description": "Bonds and other borrowing",
+              "heat": "ok",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human Resources",
+      "description": "Hiring, supporting and developing faculty and staff",
+      "children": [
+        {
+          "name": "Recruiting and Hiring",
+          "description": "Finding and hiring faculty and staff",
+          "children": [
+            {
+              "name": "Position Management",
+              "description": "Approving and tracking positions",
+              "heat": "high",
+              "count": 1
+            },
+            {
+              "name": "Faculty Search",
+              "description": "Running searches for faculty positions",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Staff Recruiting",
+              "description": "Advertising and filling staff positions",
+              "heat": "ok",
+              "count": 2
+            },
+            {
+              "name": "Background Checks",
+              "description": "Screening new hires",
+              "heat": "ok",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "name": "Onboarding",
+          "description": "Getting new employees set up and productive",
+          "children": [
+            {
+              "name": "New Hire Paperwork",
+              "description": "Forms, eligibility checks and enrollment",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Employee Orientation",
+              "description": "Introducing new staff to the institution",
+              "heat": "watch",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "name": "Benefits",
+          "description": "Health and retirement benefits",
+          "children": [
+            {
+              "name": "Benefits Enrollment",
+              "description": "Enrolling employees in benefit plans",
+              "heat": "watch",
+              "count": 4
+            },
+            {
+              "name": "Retirement Plans",
+              "description": "Managing retirement savings plans",
+              "count": 0
+            },
+            {
+              "name": "Leave Management",
+              "description": "Sick, family and other leave",
+              "heat": "ok",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "name": "Faculty Affairs",
+          "description": "Appointments, promotion and tenure",
+          "children": [
+            {
+              "name": "Faculty Appointments",
+              "description": "Hiring and appointing faculty",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Promotion and Tenure",
+              "description": "Review for promotion and tenure",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Sabbaticals",
+              "description": "Granting and tracking sabbatical leave",
+              "heat": "high",
+              "count": 2
+            },
+            {
+              "name": "Faculty Activity Reporting",
+              "description": "Recording teaching, research and service",
+              "heat": "ok",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "name": "Learning and Development",
+          "description": "Training and professional development",
+          "children": [
+            {
+              "name": "Staff Training",
+              "description": "Required and optional staff training",
+              "heat": "ok",
+              "count": 3
+            },
+            {
+              "name": "Professional Development",
+              "description": "Supporting growth and further qualifications",
+              "heat": "ok",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "name": "Performance Management",
+          "description": "Reviews and goals",
+          "children": [
+            {
+              "name": "Performance Reviews",
+              "description": "Annual reviews for staff",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Goal Setting",
+              "description": "Setting and tracking individual goals",
+              "heat": "watch",
+              "count": 0
+            }
+          ]
+        },
+        {
+          "name": "Employee Relations",
+          "description": "Workplace concerns, labor relations and policy",
+          "children": [
+            {
+              "name": "Labor Relations",
+              "description": "Working with unions and bargaining agreements",
+              "heat": "watch",
+              "count": 5
+            },
+            {
+              "name": "Workplace Investigations",
+              "description": "Investigating employee complaints",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Campus Operations",
+      "description": "Running the physical campus",
+      "children": [
+        {
+          "name": "Facilities and Maintenance",
+          "description": "Maintaining buildings and grounds",
+          "children": [
+            {
+              "name": "Work Orders",
+              "description": "Requesting and tracking maintenance work",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Preventive Maintenance",
+              "description": "Scheduled maintenance of buildings and equipment",
+              "heat": "ok",
+              "count": 2
+            },
+            {
+              "name": "Grounds and Custodial Services",
+              "description": "Grounds care and cleaning",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Utilities",
+              "description": "Power, heating, cooling and water",
+              "heat": "high",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "name": "Space Management",
+          "description": "Assigning and planning the use of space",
+          "children": [
+            {
+              "name": "Space Inventory",
+              "description": "Recording rooms and how they're used",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Space Planning",
+              "description": "Planning future space needs",
+              "heat": "ok",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "Capital Projects",
+          "description": "Planning and building new and renovated facilities",
+          "children": [
+            {
+              "name": "Project Planning and Design",
+              "description": "Planning and designing building projects",
+              "heat": "ok",
+              "count": 0
+            },
+            {
+              "name": "Construction Management",
+              "description": "Managing construction contractors and progress",
+              "heat": "ok",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "name": "Public Safety",
+          "description": "Campus police, emergency management and safety",
+          "children": [
+            {
+              "name": "Campus Police and Security",
+              "description": "Patrols and security services",
+              "heat": "watch",
+              "count": 1
+            },
+            {
+              "name": "Emergency Management",
+              "description": "Emergency plans, alerts and drills",
+              "heat": "watch",
+              "count": 6
+            },
+            {
+              "name": "Physical Access Control",
+              "description": "Card access and keys for buildings",
+              "count": 2
+            },
+            {
+              "name": "Environmental Health and Safety",
+              "description": "Lab safety, hazardous materials and workplace safety",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Clery Reporting",
+              "description": "Reporting campus crime statistics as the Clery Act requires",
+              "heat": "ok",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "name": "Parking and Transportation",
+          "description": "Parking, permits and campus transit",
+          "children": [
+            {
+              "name": "Parking Permits",
+              "description": "Selling and enforcing parking permits",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Campus Transit",
+              "description": "Shuttles and transport services",
+              "heat": "high",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "Campus Card Services",
+          "description": "ID cards and what they unlock",
+          "children": [
+            {
+              "name": "ID Card Issuance",
+              "description": "Producing and replacing campus ID cards",
+              "heat": "ok",
+              "count": 0
+            },
+            {
+              "name": "Card Payments",
+              "description": "Stored value and payments with the ID card",
+              "heat": "ok",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "name": "Sustainability",
+          "description": "Energy, waste and environmental goals",
+          "children": [
+            {
+              "name": "Energy Management",
+              "description": "Measuring and reducing energy use",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Sustainability Reporting",
+              "description": "Reporting on environmental goals",
+              "heat": "ok",
+              "count": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Information Technology",
+      "description": "Technology services for the whole institution",
+      "children": [
+        {
+          "name": "Identity and Access",
+          "description": "Accounts, single sign-on and permissions",
+          "children": [
+            {
+              "name": "Account Provisioning",
+              "description": "Creating and removing accounts as people join and leave",
+              "heat": "watch",
+              "count": 2
+            },
+            {
+              "name": "Single Sign-On",
+              "description": "One sign-in across the institution's systems",
+              "heat": "watch",
+              "count": 7
+            },
+            {
+              "name": "Access Reviews",
+              "description": "Checking who has access to what",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "name": "Network and Infrastructure",
+          "description": "Networks, servers, cloud and data centers",
+          "children": [
+            {
+              "name": "Campus Network",
+              "description": "Wired and wireless networks",
+              "heat": "ok",
+              "count": 8
+            },
+            {
+              "name": "Data Center and Cloud Hosting",
+              "description": "Where the institution's systems run",
+              "heat": "ok",
+              "count": 4
+            },
+            {
+              "name": "Telephony",
+              "description": "Phones and unified communications",
+              "heat": "ok",
+              "count": 0
+            }
+          ]
+        },
+        {
+          "name": "Service Desk",
+          "description": "Help with technology for students and staff",
+          "children": [
+            {
+              "name": "IT Support",
+              "description": "Answering and resolving technology requests",
+              "heat": "high",
+              "count": 5
+            },
+            {
+              "name": "End-User Devices",
+              "description": "Computers and devices for staff and labs",
+              "heat": "ok",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Information Security",
+          "description": "Protecting systems and data",
+          "children": [
+            {
+              "name": "Security Operations",
+              "description": "Detecting and responding to threats",
+              "heat": "ok",
+              "count": 6
+            },
+            {
+              "name": "Vulnerability Management",
+              "description": "Finding and fixing weaknesses",
+              "heat": "ok",
+              "count": 2
+            },
+            {
+              "name": "Security Awareness",
+              "description": "Training people to work safely",
+              "heat": "ok",
+              "count": 7
+            },
+            {
+              "name": "Data Classification",
+              "description": "How sensitive each kind of data is and how it's handled",
+              "heat": "watch",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "name": "Enterprise Applications",
+          "description": "Running and integrating the systems that run the institution",
+          "children": [
+            {
+              "name": "Student Information System",
+              "description": "The system of record for students, courses and grades",
+              "heat": "watch",
+              "count": 8
+            },
+            {
+              "name": "Enterprise Resource Planning",
+              "description": "Finance, HR and payroll systems",
+              "count": 4
+            },
+            {
+              "name": "Integration",
+              "description": "Connecting systems and moving data between them",
+              "heat": "ok",
+              "count": 0
+            },
+            {
+              "name": "Application Portfolio Management",
+              "description": "Knowing what systems exist, who owns them and their future",
+              "heat": "ok",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "name": "Data and Analytics",
+          "description": "Data warehouse, reporting and analytics",
+          "children": [
+            {
+              "name": "Data Warehouse",
+              "description": "Bringing institutional data together for analysis",
+              "heat": "ok",
+              "count": 1
+            },
+            {
+              "name": "Reporting and Dashboards",
+              "description": "Reports and dashboards for decision-makers",
+              "heat": "high",
+              "count": 6
+            },
+            {
+              "name": "Data Governance",
+              "description": "Ownership and quality of data",
+              "heat": "ok",
+              "count": 2
+            },
+            {
+              "name": "Master Data",
+              "description": "Keeping core data such as people and organizations consistent",
+              "heat": "ok",
+              "count": 7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
